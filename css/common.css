@@ -1,0 +1,151 @@
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+
+/* 版心 */
+
+.w {
+    width: 1200px;
+    margin: auto;
+}
+
+
+/* 字体图标 */
+
+@font-face {
+    font-family: 'icomoon';
+    src: url('../fonts/icomoon.eot?7kkyc2');
+    src: url('../fonts/icomoon.eot?7kkyc2#iefix') format('embedded-opentype'), url('../fonts/icomoon.ttf?7kkyc2') format('truetype'), url('../fonts/icomoon.woff?7kkyc2') format('woff'), url('../fonts/icomoon.svg?7kkyc2#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.fr .icomoon {
+    font-family: 'icomoon';
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.style-red {
+    color: #c81623;
+}
+
+
+/* 快捷导航栏 */
+
+.shortcut {
+    height: 31px;
+    background-color: #f1f1f1;
+    line-height: 31px;
+}
+
+.fl li {
+    float: left;
+    height: 31px;
+}
+
+.fr li {
+    float: left;
+    height: 31px;
+}
+
+.fr .spacer {
+    height: 12px;
+    width: 2px;
+    background-color: #666;
+    margin: 9px 12px 0;
+}
+
+
+/* logo start */
+
+.header {
+    position: relative;
+    height: 106px;
+}
+
+.logo a {
+    display: block;
+    position: absolute;
+    top: 25px;
+    width: 175px;
+    height: 55px;
+    background: url(../img/logo.png) no-repeat;
+    font-size: 0;
+}
+
+.search {
+    position: absolute;
+    top: 25px;
+    left: 348px;
+}
+
+.search input {
+    float: left;
+    width: 445px;
+    height: 32px;
+    padding-left: 10px;
+    border: 2px solid #b1191a;
+    color: #ccc;
+}
+
+.search button {
+    float: left;
+    width: 82px;
+    height: 36px;
+    background-color: #b1191a;
+    border: 0;
+    color: #fff;
+}
+
+.hotwrods {
+    position: absolute;
+    top: 69px;
+    left: 360px;
+}
+
+.hotwrods a {
+    height: 15px;
+    margin: 10px 10px;
+    font-size: 12px;
+}
+
+.shopcar {
+    position: absolute;
+    top: 25px;
+    right: 28px;
+    width: 138px;
+    height: 35px;
+    border: 1px solid #ccc;
+    background-color: #f7f7f7;
+    line-height: 35px;
+    text-align: center;
+}
+
+.car {
+    font-family: 'icomoon';
+    color: #b1191a;
+    margin-right: 5px;
+}
+
+.arrow {
+    font-family: 'icomoon';
+    margin-left: 5px;
+}
+
+.count {
+    position: absolute;
+    top: -5px;
+    left: 100px;
+    height: 14px;
+    padding: 0 3px;
+    background-color: #e60012;
+    color: #fff;
+    line-height: 14px;
+    border-radius: 7px 7px 7px 0;
+}
