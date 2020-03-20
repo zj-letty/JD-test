@@ -1,0 +1,16 @@
+/* lsit start */
+
+/* sk */
+.sk {
+    position: absolute;
+    top: 40px; 
+    left: 186px;
+    height: 32px;
+    border-left: 1px solid red;
+    padding: 5px 0 0 15px;
+}
+
+.nav {
+    height: 45px;
+    border-bottom: 2px solid #b1191a;
+}

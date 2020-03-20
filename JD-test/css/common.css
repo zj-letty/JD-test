@@ -161,6 +161,11 @@
     border-bottom: 2px solid #b1191a;
 }
 
+.dropdown {
+    width: 209px;
+    height: 45px;
+}
+
 .dt {
     width: 209px;
     height: 43px;
@@ -177,12 +182,18 @@
     margin-top: 2px;
 }
 
-.dd .menu_item {
-    width: 188px;
+.menu_item {
+    width: 196px;
     height: 31px;
     line-height: 31px;
     margin-left: 1px;
-    padding: 0 10px;
+    padding: 0 10px; 
+    transition: all .2;
+}
+
+
+.menu_item:hover {
+    padding-left: 20px;
 }
 
 .menu_item a {
